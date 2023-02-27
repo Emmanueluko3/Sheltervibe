@@ -1,0 +1,29 @@
+.nav-parent{
+    background: #22687E;
+}
+
+.active {
+    font-weight: bold !important;
+    color: #fff !important;
+  }
+
+.custom-logo{
+    height: 60px;
+}
+
+.notActive{
+    text-decoration: none;
+    color: #f1d0d0;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px 14px;
+}
+
+.notActive:hover{
+    color: #aadeed;
+}
+
+.cus-login{
+    color: #22687E !important;
+}
+

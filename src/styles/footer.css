@@ -1,0 +1,16 @@
+.footer-parent{
+    background: #22687E;
+    color: #fff;
+}
+
+.cus-img{
+    width: 100px;
+    height: 100px;
+    /* margin-right: 50px; */
+}
+
+.footer .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

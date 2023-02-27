@@ -1,0 +1,253 @@
+/* featured properties */
+
+.featured-parent{
+    background: #F0F2F5;
+    padding: 5% 0;
+}
+
+.Featured{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Featured .h2{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.Featured p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.featured-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.absolute{
+    position: relative;
+    top: -250px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.absolute .left{
+    background: #0098A3;
+    border-radius: 2px;
+    font-weight: 300;
+    padding: 3px;
+    color: #fff;
+}
+
+.absolute .right{
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 2px;
+    font-weight: 300;
+    padding: 3px;
+    color: #fff;
+}
+
+.load-more{
+    border: 1px solid #22687E;
+    border-radius: 4px;
+    background: none;
+    width: 190px;
+    color: #22687E;
+    font-weight: 500;
+}
+
+.load-more:hover{
+    background: #22687E;
+    color: #fff;
+}
+
+/* news from blog */
+
+.news-parent{
+    background: #F0F2F5;
+    padding: 5% 0;
+}
+
+.news-parent .news-blog{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-parent .news-blog .news-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.news-parent .news-blog h2{
+    font-weight: 500;
+    font-size: 35px;    
+}
+
+.news-parent .news-blog p{
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.news-parent .news-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 22%;
+    margin: 20px 10px;
+    background: #fff;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+}
+
+.news-parent .news-card img{
+    width: 95%;
+    height: 100%;
+    border-radius: 6px;
+    margin: 8px;
+}
+
+.news-parent .news-card .news-card-body{
+    padding: 0 10px;
+}
+
+.news-parent .news-card h4{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.news-parent .news-card .news-card-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-parent .news-card h4{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.news-parent .news-card h3{
+    font-weight: 500;
+    font-size: 13px;
+    color: #478193;
+    margin: 10px 0px 0px 0px;
+}
+
+.news-parent .news-card p{
+    font-weight: 300;
+    font-size: 13px;
+    color: #636363;
+    margin: 4px 0;
+}
+
+.news-parent .news-card .news-card-price h5{
+    font-weight: 300;
+    font-size: 15px;
+    color: #22687E;
+    margin-top: 3px;
+}
+
+/*Consult section*/
+.consult{
+    margin: auto;
+    padding: 4%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consult .left, .consult .right{
+    width: 50%;
+}
+
+.consult .left h2{
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.consult .left p{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.consult .right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.consult .right form .field{
+    width: 100%;
+}
+
+.consult .consult-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.consult .consult-flex .input{
+    width: 47%;
+    /*margin: 0px 10px;*/
+}
+
+.textarea{
+    height: 80px;
+}
+.consult .right form .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consult .right input{
+    background: #FFFFFF;
+    border: 2px solid #DCE0E0;
+    border-radius: 4px;
+    height: 32px;
+    width: 100% !important;
+    padding: 9px 0px;
+    color: #A1A7A8;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+::placeholder{
+    padding: 0px 15px !important;
+}
+
+textarea{
+    background: #FFFFFF;
+    border: 2px solid #DCE0E0;
+    border-radius: 4px;
+    height: 32px;
+    width: 100% !important;
+    padding: 9px 0px;
+    color: #A1A7A8;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 0px;
+}
