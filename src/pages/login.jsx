@@ -30,7 +30,7 @@ function Login({ showState }) {
         backdrop="static"
         keyboard={false}
         centered
-        className="border border-0"
+        className="bg-gradient border border-0"
         size="md"
       >
         <Modal.Header className="border-0 mb-0" closeButton>

@@ -39,7 +39,7 @@ function CarouselFadeExample() {
     <Carousel.Item
       key={index}
       style={{
-        background: `url(${item.background})`,
+        background: `linear-gradient(to bottom, rgba(12, 12, 12, 0.20), rgba(12, 12, 12, 0.20)), url(${item.background})`,
         height: "90vh",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
